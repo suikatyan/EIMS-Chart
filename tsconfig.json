@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es2015",
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "alwaysStrict": true,
+        "outDir": "dist/js/",
+        "removeComments": true,
+        "watch": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "compileOnSave": true
+}

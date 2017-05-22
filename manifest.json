@@ -1,0 +1,26 @@
+{
+  "name": "EIMS Chart",
+  "version": "1.0",
+  "description": "EIMSに統計情報を表示します",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://eims.tes.co.jp/*"
+      ],
+      "js": [
+      "dist/js/lib/jquery.js",
+      "dist/js/EIMSChart.js",
+      "dist/js/model/Work.js",
+      "dist/js/handler/AbstractEIMS.js",
+      "dist/js/handler/EIMSWork.js",
+      "dist/js/model/Work.js",
+      "dist/js/index.js"
+      ],
+      "css": [
+        "dist/css/main.css"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
