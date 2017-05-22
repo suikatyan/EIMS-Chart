@@ -1,9 +1,9 @@
-temp/
-node_modules/
-!node_modules/@types/
+/temp/
+/node_modules/*
+!/node_modules/@types/
 
 ### VisualStudioCode ###
-.vscode/
+/.vscode/
 
 ### Windows ###
 # Windows thumbnail cache files
